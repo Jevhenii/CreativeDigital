@@ -1,0 +1,306 @@
+body{
+	height:100%;
+	background-color:#FCFCFC;
+}
+
+
+
+/* Layout */
+.ba-container{
+	padding-left: 20px;
+	padding-right: 20px;
+	max-width: 1200px;
+}
+
+
+
+/* Typography */
+a,
+input[type="submit"],
+input[type="button"],
+button{
+	-webkit-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+	-moz-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+input[type="submit"],
+input[type="button"],
+button,
+.ba-button{
+	display: inline-block;
+}
+input[type="submit"]:hover,
+input[type="button"]:hover,
+button:hover,
+.ba-button:hover{
+
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+input[type="tel"],
+textarea,
+select {
+
+	-webkit-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+	-moz-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+input[type="number"]:focus,
+input[type="tel"]:focus,
+textarea:focus,
+select:focus {
+
+}
+textarea {
+
+}
+.ba-header{
+	height:100%;
+}
+p {
+	font-family: PTSans;
+	color:  #665f60;
+	font-size: 20px;
+	font-weight: 400;
+}
+span {
+	font-family: PTSans;
+	color: black;
+	font-size: 22px;
+	font-style: italic;
+}
+.col h3{
+	color: #665f60;
+	font-size: 24.04px;
+	font-weight: 700;
+	text-align: left;
+	transform: scaleY(1.003);
+}
+
+.main-bg {
+	height:100%;
+	background-image:url(img/DeathtoStock_Wired7.jpg);
+	background-size:cover;
+	background-repeat:no-repeat;
+	background-attachment: fixed;
+	background-attachment:fixed;
+	padding:3rem;
+}
+
+.navigation{
+	width:90%;
+	margin:0 auto;
+	height:4em;
+	align-items:center;
+	justify-content:center;
+}
+
+.navigation .nav-list{
+	width:60%;
+	display:flex;
+	justify-content:space-around;
+	text-transform:uppercase;
+	list-style:none;
+	color:  #ffffff;
+	font-family: ProximaNova;
+	src: url(https://d25purrcgqtc5w.cloudfront.net/dist/fonts/proximanova/302D42_5_0.eot);
+	src: url(https://d25purrcgqtc5w.cloudfront.net/dist/fonts/proximanova/302D42_5_0.eot?#iefix) format("embedded-opentype"),url(https://d25purrcgqtc5w.cloudfront.net/dist/fonts/proximanova/302D42_5_0.woff2) format("woff2"),url(https://d25purrcgqtc5w.cloudfront.net/dist/fonts/proximanova/302D42_5_0.woff) format("woff"),url(https://d25purrcgqtc5w.cloudfront.net/dist/fonts/proximanova/302D42_5_0.ttf) format("truetype"),url(https://d25purrcgqtc5w.cloudfront.net/dist/fonts/proximanova/302D42_5_0.svg#wf) format("svg");
+	font-weight: 600;
+	font-size: 24px;
+}
+
+.navigation .nav-list li:hover, .navigation .nav-list li:focus, .nav-list li:active{
+	border-bottom:1px solid #ffffff;
+	cursor:pointer;
+}
+
+.nav-text{
+	color:red;
+	display:flex;
+	width:40%;
+	height:20em;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	top: 0;
+	right: 0;
+	margin: auto;
+	flex-direction:column;
+	align-items:center;
+	justify-content:center;	
+}
+.nav-text h1 {
+	font-family: ProximaNova;
+	color:  #fefefb;
+	font-size: 71.97px;
+	font-weight: 700;
+	line-height: 60.035px;
+	transform: scaleY(1.0035);
+}
+
+.nav-text p {
+	font-family: PTSans;
+	color:  #fefdfd;
+	font-size: 29.99px;
+	font-style: italic;
+	transform: scaleY(1.0035);
+}
+.about-section{
+	height:100%;
+	background-color:  #ebebeb;
+}
+.about-section .about {
+	width:80%;
+}
+.about-image{
+	background-image:url(img/DeathtoStock_Wired8.png);
+	background-size:cover;
+	background-repeat:no-repeat;
+	width: 380px;
+	height: 555px;
+	display:flex;
+	flex-direction:column;
+	align-items:center;
+	justify-content:center;
+}
+.icon-descr {
+	font-family: ProximaNova;
+	color:  #fefbfc;
+	font-size: 35.94px;
+	font-weight: 600;
+	line-height: 60.035px;
+	text-align: left;
+	transform: scaleY(1.0015);
+	text-transform:uppercase;
+	font-style: normal
+}
+.icon-descr:hover{
+	cursor:pointer;
+	transform: scaleY(1.3015);
+	transition:0.5s;
+	border-bottom:1px solid #fff;
+}
+.image-descr{
+	padding-left:5em;
+	display:flex;
+	flex-direction:column;
+	align-items:center;
+	justify-content:center;
+	width:80%;	
+}
+.image-descr p{
+	padding-left:5em;
+}
+.grid-section {
+	height:auto;
+	background-color:  #ebebeb;
+	margin:auto;
+}
+
+
+.grid-container__app .row .col {
+	width: 380px;
+	height: 400px;
+	display:flex;
+	flex-direction:column;
+	align-items:center;
+	justify-content:center;
+	text-align:center;
+}
+.grid-container__app .row .col:hover {
+	border:3px solid #ffffff;
+	cursor:pointer;
+}
+
+.grid-container__services{
+	background-image:url(img/unsplash_523ae1f5502d6_1.jpg);
+	display:flex;
+	flex-direction:column;
+	align-items:center;
+	justify-content:space-around;
+	text-align:center;
+}
+.services-logo {
+	flex-direction:column;
+}
+.services-text {
+	flex-direction:column;
+}
+.services-text p {
+	color:#ffffff;
+}
+
+.carusel{
+	min-height:1000px;
+	background-image:url(img/Bg.png);
+	background-size:cover;
+	background-repeat:no-repeat;
+}
+.carusel-logo{
+	display:flex;
+	flex-direction:column;
+	align-items:center;
+	justify-content:space-around;
+	text-align:center;
+	height:15em;
+}
+#carouselExampleIndicators{
+	min-height:600px;
+}
+.carousel-item img{
+	min-height: 546px;
+	margin:0 auto;
+	background-image:url(img/Showcase.png);
+	
+}
+.carusel-button{
+	display:flex;
+	flex-direction:column;
+	align-items:center;
+	justify-content:center;
+	height:10em;
+	
+}
+
+.carusel-button a {
+	border-width: 1px;
+	border-color:  #7d7a7c;
+	border-style: solid;
+	background-color:inherit;
+	width: 193px;
+	height: 48px;
+	font-family: PTSans;
+	color:  #ffffff;
+	font-size: 20px;
+	font-style: italic;
+	text-align: center;
+	padding-top:5px;
+}
+
+.team {
+	background-color:  #ebebeb;
+	height:100%;
+}
+.team-logo {
+	display:flex;
+	flex-direction:column;
+	align-items:center;
+	justify-content:space-around;
+	text-align:center;
+	height:15em;
+}
+.team-logo .team-descr{
+	font-family: ProximaNova;
+	color:  #665f60;
+	font-size: 35.94px;
+	font-weight: 600;
+	text-align: center;
+	text-transform:uppercase;
+}
